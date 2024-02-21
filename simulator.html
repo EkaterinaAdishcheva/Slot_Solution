@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://github.com/EkaterinaAdishcheva">Math Task by Ekaterina Adishcheva</a>
+		</div>
+	</nav>
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">Simple Slot Machine</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-8">
+			<table class="table table-bordered">
+				<!-- <thead class="alert-info">
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Address</th>
+					</tr>
+				</thead> -->
+				<tbody id= "result"></tbody>
+			</table>
+		</div>
+		<div class="col-md-4">
+			<center><button type="button" onclick="SpinRun()" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;Spin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></center>
+			<p>&nbsp;</p>
+			<center><button type="button_mil" onclick="SpinRunBulk()" class="btn btn-primary">10^7 spins</button></center>
+			<p>&nbsp;</p>
+			<center><button type="button_mil" onclick="Reset()" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;Reset&nbsp;&nbsp;&nbsp;&nbsp;</button></center>
+		</div>
+		<div class="col-md-8">
+			<table class="table table-bordered">
+				<thead class="alert-info">
+					<tr>
+						<tbody id= "balance"></tbody>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<div class="col-md-8">
+			<table class="table table-bordered">
+				<thead class="alert-info">
+					<tr>
+						<tbody id= "stat"></tbody>
+					</tr>
+				</thead>
+			</table>
+		</div>
+</body>
+<script src="js/script.js"></script>
+</html>
